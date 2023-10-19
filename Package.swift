@@ -20,7 +20,7 @@ let package = Package(
             name: "MomentoXarvis-iOS",
             dependencies: [
                 .product(name: "Momento_iOS", package: "momento-ios-sdk"),
-//                .product(name: "Xarvis_Framwork", package: "momento-ios-sdk"),
+                .product(name: "Xarvis_Framwork", package: "Xarvis_iOS"),
             ]),
         .testTarget(
             name: "MomentoXarvis-iOSTests",
